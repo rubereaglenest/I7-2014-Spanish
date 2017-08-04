@@ -25,8 +25,7 @@ By default, if Inform can't see any reason to choose a particular gender,
 it will use neuter. We want to change that for French, since French doesn't
 have neuter nouns:]
 
-
-The grammatical gender of an object is usually masculine gender.
+The grammatical gender of a thing is usually masculine gender.
 The grammatical gender of a woman is usually feminine gender.
 
 A thing can be female. [Habilita genero a inanimados, como containers, supporters, etc. Caracteristica necesaria en espanol]
@@ -104,7 +103,7 @@ Understand "your former self" or "my former self" or "former self" or
 
 Understand "tu antiguo yo" or "mi antiguo yo" or "antiguo yo" as yourself when the player is not yourself.
 
-The description of yourself is usually "Tan buen mozo como siempre."
+The description of yourself is usually "Tan buen aspecto como siempre."
 
 The yourself object translates into I6 as "selfobj".
 Include (-
@@ -3626,7 +3625,7 @@ block attacking rule response (A) is "La violencia no es la solución.".
 
 [ Kissing ]
 
-kissing yourself rule response (A) is "Nno conseguirás mucho con eso.".
+kissing yourself rule response (A) is "No conseguirás mucho con eso.".
 block kissing rule response (A) is "[Al noun] podría no gustarle[s] eso.".
 
 
@@ -3924,7 +3923,7 @@ you-can-also-see rule response (B) is "Sobre [the domain] puedes ".
 you-can-also-see rule response (C) is "En [the domain] puedes ".
 you-can-also-see rule response (D) is "ver también ".
 you-can-also-see rule response (E) is "ver ".
-you-can-also-see rule response (F) is " aquí".
+you-can-also-see rule response (F) is "".
 
 [ printing a locale paragraph about]
 use initial appearance in room descriptions rule response (A) is "Sobre [the item] ".
@@ -4287,7 +4286,7 @@ Understand "ponte [something preferably held]" as wearing.
 Understand "ponte con [something preferably held]" as wearing.
 Understand the commands  "viste","vistete","ponerse","vestirse","ponerte","vestirte","ponerme","vestirme","ponme" and "visteme" as "ponte".
 
-Understand "pon [other things] en [container]" as inserting it into. Understand the commands  "mete","echa","inserta" and "coloca"  as "pon".
+Understand "pon [other things] en [container]" as inserting it into. Understand the commands  "mete","echa","inserta" and "coloca" as "pon".
 Understand "pon [other things] en/sobre [something]" as putting it on. 
 Understand "pon [other things] dentro de [something]" as inserting it into.
 Understand "pon [something] a [text]" as setting it to.
